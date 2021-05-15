@@ -1,0 +1,169 @@
+/* this is the css for all */ 
+
+body /*All Body*/ 
+{
+    background-image:url('SnapGramBackground.png'); 
+    background-repeat: repeat; 
+}
+
+.logo /*First Page Logo*/
+{
+	width: 150px;
+    margin-top: 20px;
+    border-radius: 85px;
+}
+
+#Heading /*All Heading*/
+{
+    margin-right: 1600px; 
+    font-size: 50px;
+    background-color: aliceblue;
+    width: 500px;
+    height: 70px;
+    border-radius: 10px;
+    font-family: 'Caveat';
+}
+
+#div1 /*All Behind heading*/
+{
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#div2 /*Main screen Username, login button etc..*/
+{
+    background-color: rgb(238, 190, 220);
+    height: 580px;
+    width: 890px;
+    margin-left:0px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(168, 167, 167);
+
+    /*TV*/
+    @media screen and (min-width:3000px){
+        width: 3765px;
+    }
+
+    /*Laptop*/
+    @media screen and (min-width:1280px){
+        width: 1045px;
+    }
+    
+    /*Tab*/
+    @media screen and (min-width:1024px){
+        width: 789px;
+    }
+
+    /*Phone*/
+    @media screen and (min-width:768px){
+        width: 533px;
+    }
+}
+
+#UsernameInput /*User name ka input*/
+{
+    width: 350px; 
+    height: 50px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgb(179, 219, 245);
+    font-family: 'Dancing Script';
+    font-size: 20px;
+}
+
+#LoginButton /*Login button on first screen*/
+{
+    width: 250px;
+    height: 40px;
+    border-width: 2px;
+    border-style: groove;
+    border-color: rgb(179, 219, 245);
+    font-family: 'Dancing Script';
+    font-size: 20px;
+}
+
+#Error /*Error on the first screen*/
+{
+    color: red;
+}
+
+#RoomUsername /*Room name wala screen ka welcome Mishti*/
+{
+    font-family: Dancing Script;
+    font-size: 50px;
+}
+
+#AddRoom Button /*Add Room ka button*/
+{
+    width: 250px;
+    height: 40px;
+    border-width: 2px;
+    border-style: groove;
+    border-color: rgb(179, 219, 245);
+    font-family: 'Dancing Script';
+    font-size: 20px;
+}
+ .message /*Messge jo dikhta hai uska class*/
+ {
+    font-family: 'Dancing Script'; 
+    font-size:25px;
+ }
+
+ .like_button /*Like button in message ka class*/
+{
+    border-width: 2px;
+    border-style: groove;
+    border-color: rgb(179, 219, 245);
+    font-family: 'Dancing Script';
+    font-size: 20px;
+}
+
+#MSGoutput /*Div jisme msg dik ta hai*/
+{ 
+    width: 850px; 
+    font-family: 'Dancing Script'; 
+    font-size:25px;
+    background-color: rgb(238, 190, 220);
+    box-shadow: 10px 10px 5px rgb(168, 167, 167);
+    border-radius: 10px;
+}
+
+.NameClass /*Message jis me nam dikta hai uska class*/
+{
+    font-family: 'Dancing Script'; 
+    font-size:25px;
+}
+
+#output /*Trending Room ka div*/
+{
+    font-family: 'Dancing Script'; 
+    font-size:25px;
+    height: 1500px; 
+    width: 870px; 
+}
+
+#Button_Menu
+{
+    min-height: 55px;
+}
+
+#MSG_div
+{
+    min-height: 200pxM;
+}
+
+#MSG_feature
+{
+    min-height: 100px;
+}
+
+#Add_room_name_div
+{
+    min-height: 250px;
+}
+
+#trendingroom_div
+{
+    min-height: 200px;
+}
